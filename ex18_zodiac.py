@@ -5,17 +5,17 @@ month = input("Enter your birth month(Jan/Feb/Mar/Apr/May/Jun/Jul/Aug/Sep/Oct/No
 
 # map = {
 #     "Jan": (19, 31, "Capricorn", "Aquarius"),
-#     "Feb": (19, 31, "Aquarius", "Pisces"),
-#     "Mar": (19, 31, "Pisces", "Aries"),
-#     "Apr": (19, 31, "Aries", "Taurus"),
-#     "May": (19, 31, "Taurus", "Gemini"),
-#     "Jun": (19, 31, "Gemini", "Cancer"),
-#     "Jul": (19, 31, "Cancer", "Leo"),
-#     "Aug": (19, 31, "Leo", "Virgo"),
-#     "Sep": (19, 31, "Virgo", "Libra"),
-#     "Oct": (19, 31, "libra", "Scorpio"),
-#     "Nov": (19, 31, "Scorpio", "Sagittarius"),
-#     "Dec": (19, 31, "Sagittarius", "Capricorn")
+#     "Feb": (18, 29, "Aquarius", "Pisces"),
+#     "Mar": (20, 31, "Pisces", "Aries"),
+#     "Apr": (19, 30, "Aries", "Taurus"),
+#     "May": (20, 31, "Taurus", "Gemini"),
+#     "Jun": (20, 30, "Gemini", "Cancer"),
+#     "Jul": (22, 31, "Cancer", "Leo"),
+#     "Aug": (22, 31, "Leo", "Virgo"),
+#     "Sep": (22, 30, "Virgo", "Libra"),
+#     "Oct": (22, 31, "libra", "Scorpio"),
+#     "Nov": (21, 30, "Scorpio", "Sagittarius"),
+#     "Dec": (21, 31, "Sagittarius", "Capricorn")
 # }
 #
 # try:
