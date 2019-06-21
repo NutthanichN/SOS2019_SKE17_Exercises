@@ -3,6 +3,32 @@
 day = int(input("Enter your birthday: "))
 month = input("Enter your birth month(Jan/Feb/Mar/Apr/May/Jun/Jul/Aug/Sep/Oct/Nov/Dec): ")
 
+# map = {
+#     "Jan": (19, 31, "Capricorn", "Aquarius"),
+#     "Feb": (19, 31, "Aquarius", "Pisces"),
+#     "Mar": (19, 31, "Pisces", "Aries"),
+#     "Apr": (19, 31, "Aries", "Taurus"),
+#     "May": (19, 31, "Taurus", "Gemini"),
+#     "Jun": (19, 31, "Gemini", "Cancer"),
+#     "Jul": (19, 31, "Cancer", "Leo"),
+#     "Aug": (19, 31, "Leo", "Virgo"),
+#     "Sep": (19, 31, "Virgo", "Libra"),
+#     "Oct": (19, 31, "libra", "Scorpio"),
+#     "Nov": (19, 31, "Scorpio", "Sagittarius"),
+#     "Dec": (19, 31, "Sagittarius", "Capricorn")
+# }
+#
+# try:
+#     a, b, c, d = map[month]
+#     if 0 < day <= a:
+#         print(f"Your zodiac sign is {c}.")
+#     elif a < day <= b:
+#         print(f"Your zodiac sign is {d}.")
+#     else:
+#         print("There is no this day in this month.")
+# except KeyError:
+#     print("This month does not exist.")
+
 if month == "Jan":
     if 0 < day <= 19:
         print("Your zodiac sign is Capricorn.")
