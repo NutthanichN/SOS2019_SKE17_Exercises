@@ -1,4 +1,9 @@
-"""print transcript"""
+"""print transcript
+
+Hint: In the first row, the words are all separated by one space except for 'GPA' which is separated by two spaces
+      (i.e. similar to '|_name_|_English_(3_credits)_|_Physics_(3_credits)_|_Thai_(2_credits)_|__GPA__|').
+      The numbers are in the middle of the cell.
+"""
 
 eng_credit = 3
 physics_credit = 3
@@ -26,11 +31,11 @@ gpa3 = ((eng3 * eng_credit) + (physics3 * physics_credit) + (thai3 * thai_credit
 print("-------------------------------------------------------------------------------")
 print("| name | English (3 credits) | Physics (3 credits) | Thai (2 credits) |  GPA  |")
 print("-------------------------------------------------------------------------------")
-print(f"| {name1:<5}| {eng1:^20}| {physics1:^20}| {thai1:^17}| {gpa1:^6.2f}|")
+print(f"|{name1:^6}|{eng1:^21}|{physics1:^21}|{thai1:^18}|{gpa1:^7.2f}|")
 print("-------------------------------------------------------------------------------")
-print(f"| {name2:<5}| {eng2:^20}| {physics2:^20}| {thai2:^17}| {gpa2:^6.2f}|")
+print(f"|{name2:^6}|{eng2:^21}|{physics2:^21}|{thai2:^18}|{gpa2:^7.2f}|")
 print("-------------------------------------------------------------------------------")
-print(f"| {name3:<5}| {eng3:^20}| {physics3:^20}| {thai3:^17}| {gpa3:^6.2f}|")
+print(f"|{name3:^6}|{eng3:^21}|{physics3:^21}|{thai3:^18}|{gpa3:^7.2f}|")
 print("-------------------------------------------------------------------------------")
 
 
