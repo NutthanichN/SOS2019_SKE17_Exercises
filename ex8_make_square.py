@@ -6,6 +6,6 @@ while i < size:
     j = 0
     while j < size:
         j += 1
-        print("*", end=" ")
+        print("+", end=" ")
     i += 1
     print("")
