@@ -7,4 +7,4 @@ if base < 0 or height < 0:
     print("Base and height must be positive.")
 else:
     area = (1/2) * base * height
-    print(f"Area of triangle is {int(area)}")
+    print(f"Area of triangle is {area:.2f}")
